@@ -1,0 +1,87 @@
+body {
+    background-color: #000;
+}
+
+.back-btn {
+    text-align: center;
+}
+
+.len-heading {
+    font-family: "cursive";
+    font-weight: bold;
+    align-items: center;
+    text-align: left;
+    padding: 2% 20%;
+    color: #fff;
+    background-color: #40ef6c;
+    font-size: 4rem;
+}
+
+.length-box {
+    align-items: center;
+    text-align: center;
+    box-shadow: inset;
+    color: #f34;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 5px solid rgba(25, 234, 129, 0.1);
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-family: "Montserrat";
+    width: 800px;
+    height: 200px;
+    margin: 5% 25%;
+    padding-top: 2%;
+}
+
+.target {
+    transform: scale(1);
+}
+
+.target:hover {
+    transform: scale(1.01);
+}
+
+input {
+    text-align: center;
+    font-family: "Montserrat";
+    box-shadow: inset;
+    padding: 2px 2px 3px;
+    letter-spacing: 4px;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: #BAD7E9;
+    padding: 2% 15%;
+}
+
+#footer1 {
+    text-align: center;
+    padding: 1% 15%;
+}
+
+.share-icon {
+    padding: 1%;
+    margin: 20px 10px;
+    font-size: 2rem;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .len-heading {
+        width: 100%;
+    }
+    .length-box {
+        width: 95%;
+        height: 220px;
+        margin: auto;
+    }
+    input {
+        width: 80%;
+    }
+    #resultType {
+        width: 80%;
+    }
+    #inputType {
+        width: 80%;
+    }
+}

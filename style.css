@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(5, 5, 5, 0.964);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    letter-spacing: 0.8px;
+}
+
+.head-title {
+    background-color: #39e05a;
+    padding: 2% 15%;
+    text-align: left;
+    opacity: 100%;
+    display: flex;
+}
+
+.uhead {
+    font-size: 5.5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    color: #fff;
+}
+
+.choose-heading {
+    background-color: #bee039;
+    display: flex;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 40%;
+    padding-right: 20%;
+    padding-bottom: 1%; 
+    font-family: "Montserrat";
+}
+
+.converter-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card,
+.card {
+    position: relative;
+    padding-top: 1%;
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(0deg, rgb(239, 238, 238), rgb(243, 243, 246));
+}
+
+.card a,
+.card a {
+    display: flex;
+    background-color: #eeeef1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.card i,
+.card i {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .converter-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .converter-cards {
+        grid-template-columns: 1fr;
+    }
+    .uhead {
+        font-size: 2.5rem;
+    }
+    .choose-heading {
+        font-size: 1rem;
+    }
+}
